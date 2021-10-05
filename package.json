@@ -5,8 +5,8 @@
   "author": "Felipe Lourenco",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
-    "format": "prettier 'src/**/*.{js,ts,tsx}' --write",
+    "lint": "eslint src/**/*.{js,ts,tsx} --quiet --fix",
+    "format": "prettier src/**/*.{js,ts,tsx} --write",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
