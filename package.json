@@ -1,0 +1,37 @@
+{
+  "name": "storybook-scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Felipe Lourenco",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint 'src/**/*.{js,ts,tsx}' --quiet --fix",
+    "format": "prettier 'src/**/*.{js,ts,tsx}' --write",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@storybook/addon-actions": "^6.3.9",
+    "@storybook/addon-essentials": "^6.3.9",
+    "@storybook/addon-links": "^6.3.9",
+    "@storybook/react": "^6.3.9",
+    "@types/react": "^17.0.27",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.1",
+    "prettier": "^2.4.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.4.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "dependencies": {}
+}
